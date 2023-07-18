@@ -1,0 +1,446 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* :focus-visible {
+    outline: 0;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    line-height: 1;
+    font-family: 'Pretendard-Regular';
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #2020208f;
+    position: absolute;
+    z-index: 9999;
+}
+
+header .inner {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .inner h1 {
+    position: absolute;
+    top: 17px;
+    left: 0;
+}
+
+header .inner nav {
+    height: 100px;
+    line-height: 100px;
+    text-align: right;
+}
+
+header .inner nav .gnb .depth01 {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+}
+
+header .inner nav .gnb .depth01>a {
+    padding: 0 30px;
+}
+
+header .inner nav .gnb .depth01 .depth02 {
+    position: absolute;
+    top: 100px;
+    display: none;
+    color: #fff;
+    font-size: 12px;
+    width: 100%;
+    background-color: #202020;
+}
+
+header .inner nav .gnb .depth01 .depth02 li {
+    height: 40px;
+    line-height: 40px;
+}
+
+header .inner nav .gnb .depth01:hover {
+    color: #0074E8;
+}
+
+header .inner nav .gnb .depth01:hover .depth02 {
+    display: block;
+}
+
+header .inner nav .gnb .depth02 li:hover {
+    background-color: #0074E8;
+}
+
+/* 😎 video😣 */
+
+video {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* 💣 main_bn 😋 */
+
+.main_bn {
+    background: url(../img/banner/sub_bn.jpg) center center / cover no-repeat;
+    height: 100vh;
+}
+
+
+.main_bn .inner {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main_bn .inner .text {
+    position: absolute;
+    top: 124px;
+    left: 0;
+    color: #fff;
+}
+
+.main_bn .inner .text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.main_bn .inner .text p {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+    margin-bottom: 33px;
+}
+
+.main_bn .inner .text span a {
+    width: 144px;
+    height: 36px;
+    background-color: #0074E8;
+    border: 0;
+    color: #fff;
+    margin-right: 24px;
+    line-height: 36px;
+    transition: 0.2s;
+    text-align: center;
+    display: inline-block;
+}
+
+.main_bn .inner .text span a:hover {
+    background-color: #202020;
+    color: #0074E8;
+    transition: 0.2s;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* 😎 cont01 🎉 */
+
+.cont01 {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.cont01 h2 {
+    font-size: 50px;
+    padding: 65px 0 35px;
+    text-align: right;
+}
+
+.cont01 .item01 {
+    height: 630px;
+    display: flex;
+    position: relative;
+}
+
+.cont01 .item01 .text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.cont01 .item01 .img {
+    position: absolute;
+    right: 0;
+    width: 710px;
+    height: 630px;
+    object-fit: cover;
+}
+
+.cont01 .item01 .text h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.cont01 .item01 .text span {
+    font-size: 14px;
+    color: #787B80;
+
+}
+
+.cont01 .item01 .text p {
+    margin: 35px 0 70px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.cont01 .item01 .text strong a {
+    color: #0074E8;
+}
+
+/* 😎 item02 😎 */
+
+.cont01 .item02 {
+    height: 630px;
+    display: flex;
+    position: relative;
+    margin: 100px 0 100px;
+}
+
+.cont01 .item02 .text {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.cont01 .item02 img {
+    position: absolute;
+    left: 0;
+}
+
+.cont01 .item02 .text h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.cont01 .item02 .text span {
+    font-size: 14px;
+    color: #787B80;
+}
+
+.cont01 .item02 .text p {
+    margin: 35px 0 70px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.cont01 .item02 .text strong a {
+    color: #0074E8;
+}
+
+/* 😊 cont02 💣 */
+
+.cont02 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+    position: relative;
+}
+
+.cont02 img {
+    width: 100%;
+    height: 100vh;
+    filter: brightness(50%);
+}
+
+.cont02 div {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cont02 div h3 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.cont02 div p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.cont02 div span a {
+    width: 144px;
+    height: 36px;
+    background-color: #0074E8;
+    display: block;
+    margin: 0 auto;
+    line-height: 36px;
+    margin-top: 50px;
+    transition: all 0.2s;
+}
+
+
+.cont02 div span a:hover {
+    border-radius: 30px;
+    background-color: #fff;
+    transition: all 0.2s;
+    color: #0074E8;
+    font-weight: bold;
+}
+
+/* 👏 news 👌 */
+
+.news {
+    background: url(../img/news.jpg) center center / cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.news .inner {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.news .inner div {
+    color: #fff;
+    position: absolute;
+    top: 85px;
+    left: 0;
+}
+
+.news .inner div strong {
+    font-size: 30px;
+    font-weight: normal;
+
+}
+
+.news .inner div h3 {
+    font-size: 50px;
+    margin: 10px 0 25px;
+}
+
+.news .inner div span a {
+    width: 144px;
+    height: 36px;
+    background-color: #0074E8;
+    display: block;
+    line-height: 36px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.news .inner div span a:hover {
+    background-color: #202020;
+    color: #0074E8;
+    transition: 0.2s;
+    border-radius: 30px;
+}
+
+
+/* 😒cont03👌 */
+
+
+.gallery-cell {
+    width: 1440px;
+    height: 720px;
+    margin-right: 10px;
+    counter-increment: gallery-cell;
+    margin: 100px auto 100px;
+    opacity: 0.1;
+}
+
+.gallery-cell.is-selected {
+    opacity: 1;
+}
+
+.gallery.js-flickity.flickity-enabled.is-draggable {
+    overflow-x: hidden;
+}
+
+
+/* 😒 footer 😁 */
+
+footer {
+    height: 250px;
+    background-color: #202020;
+    position: relative;
+}
+
+footer .inner {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+footer .inner h1 {
+    text-align: center;
+}
+
+footer .inner h1 img {
+    width: 100px;
+    height: 110px;
+    padding-top: 50px;
+}
+
+footer .inner .text {
+    color: #fff;
+    text-align: center;
+    margin-top: 33px;
+    font-weight: normal;
+}
+
+footer .inner .text ul li {
+    display: inline-block;
+    border-right: 1px solid #fff;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+footer .inner .text ul li a:hover {
+    color: #0074E8;
+}
+
+footer .inner .text ul li:last-child {
+    border: 0;
+}
+
+footer>ul {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 240px;
+    height: 31px;
+}
+
+footer>ul li {
+    margin-left: 24px;
+    line-height: 31px;
+}
